@@ -1,0 +1,20 @@
+<install>
+	<name>ofxCrypto</name>
+	<version>0.1</version>
+	<author>Jamie Kosoy</author>
+	<url>http://jkosoy.com</url>
+
+	<add>
+		<src>
+			<folder name="addons/ofxCrypto/src">
+				<file>../../../addons/ofxCrypto/src/ofxCrypto.h</file>
+				<file>../../../addons/ofxCrypto/src/ofxCrypto.cpp</file>
+			</folder>
+		</src>
+
+		<include>
+			<path>../../../addons/ofxCrypto/src</path>
+		</include>
+	</add>
+	
+</install>
